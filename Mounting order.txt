@@ -1,0 +1,73 @@
+Recommended mounting order
+--------------------------
+
+1	32768KHz	X1
+
+1	Battery holder
+1	Reset button
+
+6	IC holders		
+
+1	18R		R18	
+4	47R		R16, R17, R19, R20
+1	100R		R12
+6	220R		R7, R8, R9, R11, R13, R21, R22	
+1	1K		R13, R14		
+2	2K2		R4, R5		
+1	2K4		R23		
+5	4K7		R1, R2, R10		
+1	10K		R24
+
+2	15pF		C15, C16	
+2	22pF		C10, C11	
+
+1	16MHz		X2
+1	25MHz		X3
+
+1	LM7805		U4
+1	LM3940		U2
+		
+9	0.1uF		C1, C2, C3, C4, C8, C12, C17, C18, C19, C20 
+3	100nF		C2, C13, C14			
+1	47uF		C5, C6, C9	
+
+4	Arduino connectors
+9	Screw connectors
+
+1	Diode		D6
+1	1N4011		D1
+
+2	Red LED		D2, D5		
+1	Green LED	D3	
+1	Yellow LED	D4		
+	
+2	BS250		Q1, Q2			
+1	1N2222		Q3		
+			
+6	Jumpers
+
+1	Power supply connector
+1	Ethernet RJ45	
+
+1	330uF		C7
+
+1	Wire horizontally between +5V to Q1 
+
+---- 	Test power supply ----
+
+1	ATMEGA1284	U1
+
+----	Uplood bootloader
+
+1	ENC28J60	U7
+1	74LS125		U9
+1	DS1307		U3	
+2	PCA8574A	U5, U6
+
+----	Tests ----------------
+
+
+	
+
+		
+	
